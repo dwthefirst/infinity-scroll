@@ -95,7 +95,6 @@ window.addEventListener('scroll', () => {
         console.log('window.innerHeight + scrollY: ', window.scrollY + window.innerHeight);
         console.log('document.body.offsetHeight - 1000', document.body.offsetHeight - 1000);
         getPhotos();
-        alert('load more');
     }
 })
 
